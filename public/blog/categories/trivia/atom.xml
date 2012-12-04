@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[All Your Base Are Belong To Me]]></title>
-  <link href="http://aybabt.me/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Trivia | All Your Base Are Belong To Me]]></title>
+  <link href="http://aybabt.me/blog/categories/trivia/atom.xml" rel="self"/>
   <link href="http://aybabt.me/"/>
   <updated>2012-12-03T20:34:08-05:00</updated>
   <id>http://aybabt.me/</id>
