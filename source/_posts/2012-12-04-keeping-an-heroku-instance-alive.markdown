@@ -5,7 +5,7 @@ date: 2012-12-04 20:13
 comments: true
 categories: [hack, heroku]
 ---
-I used to have a Linode VM.  I still have a Linode VM.  But I regurlarly
+I used to have a Linode VM.  I still have a Linode VM.  But I regularly
 fuck up my setup (lock myself out, get lost in between nginx and
 apache's install and config files, mess up my iptables rules, etc), so 
 it's not the best platform to use when I want to explore stuff about 
