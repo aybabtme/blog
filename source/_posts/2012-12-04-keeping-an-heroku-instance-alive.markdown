@@ -23,7 +23,7 @@ So here's a pretty trivial solution to this annoyance:
 > CRON JOBS!
 
 Yayyyyy!  Create a small script that gets a pages from your app every
-hour, and put that in your `/etc/cron.hourly/` folder.  Too simple!
+hour, and put that in your crontab jobs!  Too simple!
 
 So I did this little script:
 
