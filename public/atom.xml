@@ -4,7 +4,7 @@
   <title><![CDATA[All Your Base Are Belong To Me]]></title>
   <link href="http://aybabt.me/atom.xml" rel="self"/>
   <link href="http://aybabt.me/"/>
-  <updated>2012-12-03T20:44:23-05:00</updated>
+  <updated>2012-12-04T20:56:51-05:00</updated>
   <id>http://aybabt.me/</id>
   <author>
     <name><![CDATA[Antoine Grondin]]></name>
@@ -12,6 +12,102 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Keeping an Heroku instance alive]]></title>
+    <link href="http://aybabt.me/blog/2012/12/04/keeping-an-heroku-instance-alive/"/>
+    <updated>2012-12-04T20:13:00-05:00</updated>
+    <id>http://aybabt.me/blog/2012/12/04/keeping-an-heroku-instance-alive</id>
+    <content type="html"><![CDATA[<p>I used to have a Linode VM.  I still have a Linode VM.  But I regurlarly
+fuck up my setup (lock myself out, get lost in between nginx and
+apache&#8217;s install and config files, mess up my iptables rules, etc), so
+it&#8217;s not the best platform to use when I want to explore stuff about
+web development.</p>
+
+<p>Heroku is great for that, you can get your instance for free and the
+deployment is a breeze.  But your free instance (or dyno) is turned off
+after every hour of inactivity on your website.  This is quite annoying.
+It means the visitor coming an hour after the last visitor will see the
+page load for a dozen of seconds before being served anything, while heroku
+turns your dyno back online.</p>
+
+<p>So here&#8217;s a pretty trivial solution to this annoyance:</p>
+
+<blockquote><p>CRON JOBS!</p></blockquote>
+
+<p>Yayyyyy!  Create a small script that gets a pages from your app every
+hour, and put that in your <code>/etc/cron.hourly/</code> folder.  Too simple!</p>
+
+<p>So I did this little script:</p>
+
+<figure class='code'><figcaption><span>heroku-keep-alive</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1">#!/usr/bin/env ruby</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">require</span> <span class="s1">&#39;net/http&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="no">APPS</span> <span class="o">=</span> <span class="o">[</span>
+</span><span class='line'>  <span class="s2">&quot;aybabtme&quot;</span>
+</span><span class='line'><span class="o">]</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">get_app_uri</span><span class="p">(</span> <span class="n">app_name</span> <span class="p">)</span>
+</span><span class='line'>  <span class="n">heroku_app</span> <span class="o">=</span> <span class="s2">&quot;http://</span><span class="si">#{</span><span class="n">app_name</span><span class="si">}</span><span class="s2">.heroku.com/index.html&quot;</span>
+</span><span class='line'>  <span class="no">URI</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">heroku_app</span><span class="p">)</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">wake_up_instance_at_uri</span><span class="p">(</span> <span class="n">uri</span> <span class="p">)</span>
+</span><span class='line'>  <span class="n">res</span> <span class="o">=</span> <span class="no">Net</span><span class="o">::</span><span class="no">HTTP</span><span class="o">.</span><span class="n">get_response</span><span class="p">(</span><span class="n">uri</span><span class="p">)</span>
+</span><span class='line'>  <span class="k">if</span> <span class="n">res</span><span class="o">.</span><span class="n">code</span> <span class="o">==</span> <span class="s2">&quot;301&quot;</span>
+</span><span class='line'>    <span class="n">res</span> <span class="o">=</span> <span class="no">Net</span><span class="o">::</span><span class="no">HTTP</span><span class="o">.</span><span class="n">get_response</span><span class="p">(</span><span class="no">URI</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">res</span><span class="o">.</span><span class="n">header</span><span class="o">[</span><span class="s1">&#39;location&#39;</span><span class="o">]</span><span class="p">))</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="no">APPS</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">app_name</span><span class="o">|</span>
+</span><span class='line'>  <span class="n">uri</span> <span class="o">=</span> <span class="n">get_app_uri</span> <span class="n">app_name</span>
+</span><span class='line'>  <span class="n">wake_up_instance_at_uri</span> <span class="n">uri</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Just fill in your app names in the <code>APPS</code> array, and</p>
+
+<figure class='code'><figcaption><span>heroku-keep-alive</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">sudo</span> <span class="n">cp</span> <span class="n">heroku</span><span class="o">-</span><span class="n">keep</span><span class="o">-</span><span class="n">alive</span> <span class="sr">/etc/</span><span class="n">cron</span><span class="o">.</span><span class="n">hourly</span><span class="o">/</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>your way to victory. I&#8217;ve, ironically, put this cron job on my Linode,
+since it&#8217;s always turned on.  You could put that on your *nix box
+ at home, given that it should be turned on most of the time.</p>
+
+<p>Actually, all you really need is to <code>wget</code> your index (<code>curl</code> won&#8217;t do
+it, heroku has a permanent redirect to your instance and <code>curl</code> won&#8217;t
+follow it), but that would be <em>too</em> simple. Hey, where&#8217;s the fun if
+there&#8217;s no code at all?</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A bright new world]]></title>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: heroku | All Your Base Are Belong To Me]]></title>
+  <link href="http://aybabt.me/blog/categories/heroku/atom.xml" rel="self"/>
+  <link href="http://aybabt.me/"/>
+  <updated>2012-12-04T20:56:51-05:00</updated>
+  <id>http://aybabt.me/</id>
+  <author>
+    <name><![CDATA[Antoine Grondin]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Keeping an Heroku instance alive]]></title>
+    <link href="http://aybabt.me/blog/2012/12/04/keeping-an-heroku-instance-alive/"/>
+    <updated>2012-12-04T20:13:00-05:00</updated>
+    <id>http://aybabt.me/blog/2012/12/04/keeping-an-heroku-instance-alive</id>
+    <content type="html"><![CDATA[<p>I used to have a Linode VM.  I still have a Linode VM.  But I regurlarly
+fuck up my setup (lock myself out, get lost in between nginx and
+apache's install and config files, mess up my iptables rules, etc), so
+it's not the best platform to use when I want to explore stuff about
+web development.</p>
+
+<p>Heroku is great for that, you can get your instance for free and the
+deployment is a breeze.  But your free instance (or dyno) is turned off
+after every hour of inactivity on your website.  This is quite annoying.
+It means the visitor coming an hour after the last visitor will see the
+page load for a dozen of seconds before being served anything, while heroku
+turns your dyno back online.</p>
+
+<p>So here's a pretty trivial solution to this annoyance:</p>
+
+<blockquote><p>CRON JOBS!</p></blockquote>
+
+<p>Yayyyyy!  Create a small script that gets a pages from your app every
+hour, and put that in your <code>/etc/cron.hourly/</code> folder.  Too simple!</p>
+
+<p>So I did this little script:</p>
+
+<p>``` ruby heroku-keep-alive</p>
+
+<h1>!/usr/bin/env ruby</h1>
+
+<p>require 'net/http'</p>
+
+<p>APPS = [
+  "aybabtme"
+]</p>
+
+<p>def get_app_uri( app_name )
+  heroku_app = "http://#{app_name}.heroku.com/index.html"
+  URI.parse(heroku_app)
+end</p>
+
+<p>def wake_up_instance_at_uri( uri )
+  res = Net::HTTP.get_response(uri)
+  if res.code == "301"</p>
+
+<pre><code>res = Net::HTTP.get_response(URI.parse(res.header['location']))
+</code></pre>
+
+<p>  end
+end</p>
+
+<p>APPS.each do |app_name|
+  uri = get_app_uri app_name
+  wake_up_instance_at_uri uri
+end
+<code>
+Just fill in your app names in the `APPS` array, and
+</code>
+sudo cp heroku-keep-alive /etc/cron.hourly/
+```
+your way to victory. I've, ironically, put this cron job on my Linode,
+since it's always turned on.  You could put that on your *nix box
+ at home, given that it should be turned on most of the time.</p>
+
+<p>Actually, all you really need is to <code>wget</code> your index (<code>curl</code> won't do
+it, heroku has a permanent redirect to your instance and <code>curl</code> won't
+follow it), but that would be <em>too</em> simple. Hey, where's the fun if
+there's no code at all?</p>
+]]></content>
+  </entry>
+  
+</feed>
