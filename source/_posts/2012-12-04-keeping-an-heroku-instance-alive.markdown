@@ -53,14 +53,21 @@ APPS.each do |app_name|
   wake_up_instance_at_uri uri
 end
 ```
-Just fill in your app names in the `APPS` array, and 
+Just fill in your app names in the `APPS` array, save it somewhere and 
+``` bash
+$ chmod +x /path/to/heroku-keep-alive
+$ crontab  # will overwrite any previous jobs
+0 * * * * /path/to/heroku-keep-alive
 ```
-sudo cp heroku-keep-alive /etc/cron.hourly/
+Press `Ctrl+D`. Confirm it's been added to your cron jobs:
+``` bash
+$ crontab -l
+0 * * * * /path/to/heroku-keep-alive
 ```
-your way to victory. I've, ironically, put this cron job on my Linode,
+Yayyy, victory! I've, ironically, put this cron job on my Linode,
 since it's always turned on.  You could put that on your *nix box
- at home, given that it should be turned on most of the time.
-
+ at home, given that it should be turned on most of the time. 
+ 
 Actually, all you really need is to `wget` your index (`curl` won't do 
 it, heroku has a permanent redirect to your instance and `curl` won't 
 follow it), but that would be _too_ simple. Hey, where's the fun if
