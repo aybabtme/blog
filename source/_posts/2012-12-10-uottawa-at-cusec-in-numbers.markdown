@@ -16,11 +16,11 @@ reimbursement.
 
 If you didn't get your ticket at this time, fear no more.  I'll try to
 get more funding this Winter (I applied for the Fall's funding round, 
-I'll apply again but for the Winter round).
+I'll apply again for the Winter round).
 
 In the mean time, here are some numbers about our delegation, as it is
 right NOW (the graphs are interactive, so they'll update as we go
-forward and the time continuum - or are we going _forward_?? dun dun
+forward in the time continuum - or are we going _forward_?? dun dun
 dun). 
 
 
@@ -30,13 +30,13 @@ Whoooo, before I let you loose with the graphs, a few updates:
 
 * We broke the 39 limit!  DON'T WORRY! I'll apply for funding again this
 Winter (I'm repeating myself). Also, I'll confirm the numbers tomorrow
-when I get to catch everybody's registration at the IEEE office.
+when I get to catch everybody's registration sheet at the IEEE office.
 * This will be the biggest delegation uOttawa sent to CUSEC.  At least
 as far as I've managed to count back.
 * We're (at the time of writing) way ahead of Waterloo (2nd), and way ahead of
-all the other campuses as well. Whatever it might be worth!
+all the other Universities as well. Whatever it might be worth!
 * Get your résumé ready for CUSEC!  You should look up the sponsors at
-[CUSEC.net][1] and lookup their "Career" page.  You'll what kind of
+[CUSEC.net][1] and look up their "Career" or "Job" page.  You'll find what kind of
 jobs/internships they offer, and you won't look like a moron when you
 get to their booth with your résumé.
 
