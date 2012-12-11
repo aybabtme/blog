@@ -31,7 +31,7 @@ Whoooo, before I let you loose with the graphs, a few updates:
 * We broke the 39 limit!  DON'T WORRY! I'll apply for funding again this
 Winter (I'm repeating myself). Also, I'll confirm the numbers tomorrow
 when I get to catch everybody's registration at the IEEE office.
-* This will be the biggest delegation uOttawa sends to CUSEC.  At least
+* This will be the biggest delegation uOttawa sent to CUSEC.  At least
 as far as I've managed to count back.
 * We're (at the time of writing) way ahead of Waterloo (2nd), and way ahead of
 all the other campuses as well. Whatever it might be worth!
