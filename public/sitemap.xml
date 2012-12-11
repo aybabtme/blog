@@ -2,22 +2,30 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://aybabt.me/blog/2012/12/03/a-bright-new-world/</loc>
-        <lastmod>2012-12-04T21:23:20-05:00</lastmod>
+        <lastmod>2012-12-10T23:44:41-05:00</lastmod>
     </url>
     <url>
         <loc>http://aybabt.me/blog/2012/12/04/keeping-an-heroku-instance-alive/</loc>
-        <lastmod>2012-12-05T00:58:53-05:00</lastmod>
+        <lastmod>2012-12-10T23:44:41-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://aybabt.me/blog/2012/12/10/uottawa-at-cusec-in-numbers/</loc>
+        <lastmod>2012-12-10T23:44:41-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://aybabt.me/about/</loc>
+        <lastmod>2012-12-10T23:44:41-05:00</lastmod>
     </url>
     <url>
         <loc>http://aybabt.me/resume/</loc>
-        <lastmod>2012-12-04T21:23:20-05:00</lastmod>
+        <lastmod>2012-12-10T23:44:41-05:00</lastmod>
     </url>
     <url>
         <loc>http://aybabt.me/blog/archives/</loc>
-        <lastmod>2012-12-05T00:58:53-05:00</lastmod>
+        <lastmod>2012-12-10T23:44:41-05:00</lastmod>
     </url>
     <url>
         <loc>http://aybabt.me/</loc>
-        <lastmod>2012-12-05T00:58:53-05:00</lastmod>
+        <lastmod>2012-12-10T23:44:41-05:00</lastmod>
     </url>
 </urlset>

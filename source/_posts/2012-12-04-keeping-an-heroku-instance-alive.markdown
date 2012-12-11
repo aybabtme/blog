@@ -11,6 +11,8 @@ apache's install and config files, mess up my iptables rules, etc), so
 it's not the best platform to use when I want to explore stuff about 
 web development.
 
+<!-- more -->
+
 Heroku is great for that, you can get your instance for free and the
 deployment is a breeze.  But your free instance (or dyno) is turned off
 after every hour of inactivity on your website.  This is quite annoying.
