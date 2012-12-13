@@ -9,6 +9,8 @@ I was young, I didn't have a car, I worked in a gaz station and it was
 Winter.  The last bus coming in my part of town had passed its last run
 an hour ago, I was hungry and cold.
 
+<!-- more -->
+
 So I walked to the closest pizzeria.  I called them and ordered a pizza
 to be delivered to my house.  
 
