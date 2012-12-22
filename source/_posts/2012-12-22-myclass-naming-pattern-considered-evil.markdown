@@ -9,16 +9,17 @@ categories: rant code
 From time to time, I've seen people online or at school having a class
 such as:
 
-``` Java
+``` java
 public class Shredder {
     public void shredEverything(){
       // destroyyyyyy
     }
 }
 ```
+<!-- more -->
 and rolling out custom implementation using this kind of brain-farted
 naming pattern:
-``` Java
+``` java
 public class MyShredder extends Shredder {
     @Override
     public void shredEverything(){
@@ -32,7 +33,7 @@ Huuuuuuuurrrrrrr.....
 You know what?  JUST NAME YOUR CLASS `PaperShredder` and LET US ALL BE
 HAPPIER!
 
-``` Java
+``` java
 public class PaperShredder extends Shredder {
     /** This thing only shreds paper */
 }

@@ -4,7 +4,7 @@
   <title><![CDATA[All Your Base Are Belong To Me]]></title>
   <link href="http://aybabt.me/atom.xml" rel="self"/>
   <link href="http://aybabt.me/"/>
-  <updated>2012-12-12T21:08:18-05:00</updated>
+  <updated>2012-12-22T05:54:13-05:00</updated>
   <id>http://aybabt.me/</id>
   <author>
     <name><![CDATA[Antoine Grondin]]></name>
@@ -12,6 +12,82 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MyClass Naming Pattern Considered Evil]]></title>
+    <link href="http://aybabt.me/blog/2012/12/22/myclass-naming-pattern-considered-evil/"/>
+    <updated>2012-12-22T05:31:00-05:00</updated>
+    <id>http://aybabt.me/blog/2012/12/22/myclass-naming-pattern-considered-evil</id>
+    <content type="html"><![CDATA[<p>From time to time, I&#8217;ve seen people online or at school having a class
+such as:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Shredder</span> <span class="o">{</span>
+</span><span class='line'>    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">shredEverything</span><span class="o">(){</span>
+</span><span class='line'>      <span class="c1">// destroyyyyyy</span>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<!-- more -->
+
+
+<p>and rolling out custom implementation using this kind of brain-farted
+naming pattern:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">public</span> <span class="kd">class</span> <span class="nc">MyShredder</span> <span class="kd">extends</span> <span class="n">Shredder</span> <span class="o">{</span>
+</span><span class='line'>    <span class="nd">@Override</span>
+</span><span class='line'>    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">shredEverything</span><span class="o">(){</span>
+</span><span class='line'>      <span class="c1">// oh hai, I just want to shred paper, nothing else</span>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Huuuuuuuurrrrrrr&#8230;..</p>
+
+<p>You know what?  JUST NAME YOUR CLASS <code>PaperShredder</code> and LET US ALL BE
+HAPPIER!</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="kd">public</span> <span class="kd">class</span> <span class="nc">PaperShredder</span> <span class="kd">extends</span> <span class="n">Shredder</span> <span class="o">{</span>
+</span><span class='line'>    <span class="cm">/** This thing only shreds paper */</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>When I eventually come across a stack trace with the <code>MyImplementation</code>
+name that your brain farted, I&#8217;m left to wonder what kind of information you
+expect readers to grasp from that particular name.</p>
+
+<p>I understand that you&#8217;re proud of your code, that you think &#8220;Hey guys,
+  that&#8217;s MY class!&#8221; and everything, but knowing that this is
+  <code>YourImplementation</code> is pretty fucking pointless to everybody.</p>
+
+<blockquote><p>Don&#8217;t name your classes with the <code>My</code> prefix!!!</p></blockquote>
+
+<p>Just don&#8217;t do it!  If you implement something at random and feel there&#8217;s
+no better name coming to your mind at that time, well&#8230; just rename it
+anyway!</p>
+
+<p>There&#8217;s no way on earth that <code>MyException</code> will ever mean something
+useful to anybody, not even you.  If you don&#8217;t understand that, please
+hand over your keyboard to your kindergarden instructor.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[How To Get A Free Ride And A Pizza]]></title>

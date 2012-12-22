@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: rant | All Your Base Are Belong To Me]]></title>
+  <link href="http://aybabt.me/blog/categories/rant/atom.xml" rel="self"/>
+  <link href="http://aybabt.me/"/>
+  <updated>2012-12-22T05:54:13-05:00</updated>
+  <id>http://aybabt.me/</id>
+  <author>
+    <name><![CDATA[Antoine Grondin]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[MyClass Naming Pattern Considered Evil]]></title>
+    <link href="http://aybabt.me/blog/2012/12/22/myclass-naming-pattern-considered-evil/"/>
+    <updated>2012-12-22T05:31:00-05:00</updated>
+    <id>http://aybabt.me/blog/2012/12/22/myclass-naming-pattern-considered-evil</id>
+    <content type="html"><![CDATA[<p>From time to time, I've seen people online or at school having a class
+such as:</p>
+
+<p>``` java
+public class Shredder {</p>
+
+<pre><code>public void shredEverything(){
+  // destroyyyyyy
+}
+</code></pre>
+
+<p>}
+```</p>
+
+<!-- more -->
+
+
+<p>and rolling out custom implementation using this kind of brain-farted
+naming pattern:
+``` java
+public class MyShredder extends Shredder {</p>
+
+<pre><code>@Override
+public void shredEverything(){
+  // oh hai, I just want to shred paper, nothing else
+}
+</code></pre>
+
+<p>}
+```</p>
+
+<p>Huuuuuuuurrrrrrr.....</p>
+
+<p>You know what?  JUST NAME YOUR CLASS <code>PaperShredder</code> and LET US ALL BE
+HAPPIER!</p>
+
+<p>``` java
+public class PaperShredder extends Shredder {</p>
+
+<pre><code>/** This thing only shreds paper */
+</code></pre>
+
+<p>}
+```</p>
+
+<p>When I eventually come across a stack trace with the <code>MyImplementation</code>
+name that your brain farted, I'm left to wonder what kind of information you
+expect readers to grasp from that particular name.</p>
+
+<p>I understand that you're proud of your code, that you think "Hey guys,
+  that's MY class!" and everything, but knowing that this is
+  <code>YourImplementation</code> is pretty fucking pointless to everybody.</p>
+
+<blockquote><p>Don't name your classes with the <code>My</code> prefix!!!</p></blockquote>
+
+<p>Just don't do it!  If you implement something at random and feel there's
+no better name coming to your mind at that time, well... just rename it
+anyway!</p>
+
+<p>There's no way on earth that <code>MyException</code> will ever mean something
+useful to anybody, not even you.  If you don't understand that, please
+hand over your keyboard to your kindergarden instructor.</p>
+]]></content>
+  </entry>
+  
+</feed>
