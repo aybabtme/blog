@@ -4,7 +4,7 @@
   <title><![CDATA[Category: rant | All Your Base Are Belong To Me]]></title>
   <link href="http://aybabt.me/blog/categories/rant/atom.xml" rel="self"/>
   <link href="http://aybabt.me/"/>
-  <updated>2012-12-22T05:54:13-05:00</updated>
+  <updated>2012-12-22T05:57:25-05:00</updated>
   <id>http://aybabt.me/</id>
   <author>
     <name><![CDATA[Antoine Grondin]]></name>
@@ -32,11 +32,8 @@ public class Shredder {</p>
 <p>}
 ```</p>
 
-<!-- more -->
-
-
 <p>and rolling out custom implementation using this kind of brain-farted
-naming pattern:
+naming pattern:<!-- more -->
 ``` java
 public class MyShredder extends Shredder {</p>
 
@@ -79,7 +76,7 @@ anyway!</p>
 
 <p>There's no way on earth that <code>MyException</code> will ever mean something
 useful to anybody, not even you.  If you don't understand that, please
-hand over your keyboard to your kindergarden instructor.</p>
+hand over your keyboard to your kindergarten instructor.</p>
 ]]></content>
   </entry>
   

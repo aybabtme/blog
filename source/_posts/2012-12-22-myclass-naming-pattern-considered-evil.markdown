@@ -16,9 +16,9 @@ public class Shredder {
     }
 }
 ```
-<!-- more -->
+
 and rolling out custom implementation using this kind of brain-farted
-naming pattern:
+naming pattern:<!-- more -->
 ``` java
 public class MyShredder extends Shredder {
     @Override
@@ -55,4 +55,4 @@ anyway!
 
 There's no way on earth that `MyException` will ever mean something
 useful to anybody, not even you.  If you don't understand that, please 
-hand over your keyboard to your kindergarden instructor.
+hand over your keyboard to your kindergarten instructor.
