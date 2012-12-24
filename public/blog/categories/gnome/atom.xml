@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: gnome | All Your Base Are Belong To Me]]></title>
+  <link href="http://aybabt.me/blog/categories/gnome/atom.xml" rel="self"/>
+  <link href="http://aybabt.me/"/>
+  <updated>2012-12-24T10:24:48-05:00</updated>
+  <id>http://aybabt.me/</id>
+  <author>
+    <name><![CDATA[Antoine Grondin]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How To Survive Gnome Windowgeddon]]></title>
+    <link href="http://aybabt.me/blog/2012/12/24/gnome-puts-windows-out-of-screen-how-to-survive-windowgeddon/"/>
+    <updated>2012-12-24T09:36:00-05:00</updated>
+    <id>http://aybabt.me/blog/2012/12/24/gnome-puts-windows-out-of-screen-how-to-survive-windowgeddon</id>
+    <content type="html"><![CDATA[<p>You use Gnome 3. You usually have two monitors.  Today, you removed one
+(for whatever reason).  You open applications and they are all
+offscreen.  You curse, you cry, you think of the worst.  You contemplate
+putting an end to your eternal agony.</p>
+
+<p>Fear no more.</p>
+
+<!-- more -->
+
+
+<p>Multi-monitor support on Linux generally sucks.  Gnome 3 has many
+flaws, people love to bash on it... but personnaly, I think it's getting
+better and better.  However, multi-monitor support sucks.</p>
+
+<p>So how can you take that stupid out-of-screen window and put it back
+into the Visible World ?</p>
+
+<p><code>Alt-Tab</code> into the off-screen app, then <code>Alt-Space</code> it's window's menu
+out of the darkness.  Press <code>m</code> to free it from its constraints and
+<code>wiggle-your-mouse-on-the-screen</code> the app back into a more decent
+position.</p>
+
+<p>You just saved the day.  Carry on.</p>
+]]></content>
+  </entry>
+  
+</feed>
