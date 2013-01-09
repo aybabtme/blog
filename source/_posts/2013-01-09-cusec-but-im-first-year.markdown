@@ -6,7 +6,7 @@ comments: true
 categories: uottawa cusec
 ---
 
-Some people came to me wondering about the pertinence of CUSEC for them: they're first year, they don't feel they have anything to sell to recruiters, they don't have much confidence in their skills.
+Some people came to me wondering about the pertinence of [CUSEC][99] for them: they're first year, they don't feel they have anything to sell to recruiters, they don't have much confidence in their skills.
 
 > Is it worth it for me to attend CUSEC?  I'm first year, I'll never get a job!
 
@@ -65,3 +65,4 @@ So yeah. Go to CUSEC, it's worth it, even if you don't think you'll land a job. 
 [3]: http://www.kickstarter.com/projects/ibdknox/light-table
 [4]: http://www.chris-granger.com/
 [5]: http://www.worrydream.com
+[99]: http://2013.cusec.net/
