@@ -28,7 +28,7 @@ When I first heard about CUSEC, it was on an email I received in November.  Befo
 
 > What do I have to lose going?  Nothing (but a couple of $)
 
-And so I went.  And it was awesome.  But I was first year, I didn't know shit, like nothing at all.  Once there, I realized there was a career fair going on all conference long.  I don't know why but I never paid attention to the HD's message regarding the carrer fairs - my attention span sucks like that. So I was there, in front of all those recruiters in front of impressive, big names and I remember feeling overwhelmed.  
+And so I went.  And it was awesome.  But I was first year, I didn't know shit, like nothing at all.  Once there, I realized there was a career fair going on all conference long.  I don't know why but I never paid attention to the HD's message regarding the career fairs - my attention span sucks like that. So I was there, in front of all those recruiters in front of impressive, big names and I remember feeling overwhelmed.  
 
 I went up the stairs of the hotel and thrown out a resume in 30 minutes.  Then I went downstair back to the conference floor and started to distribute my resume. God I had no clue what anything was about.  I went to the [Riot Games booth][1] (makers of League of Legend), the guy there asking me
 
