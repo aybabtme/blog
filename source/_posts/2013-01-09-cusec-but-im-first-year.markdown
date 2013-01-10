@@ -48,7 +48,7 @@ So what should you do?  Last year, I went there and thought of my 'CUSEC perform
 
 Failure because, of course, the Riot Games recruiter was not very impressed that I had no clue about any of the words that got out of his mouth.  But it doesn't matter, I got a glimpse at his Alien Language and this year, I can come back and try to speak it.  I'll have a much better shot at it now that I know his secret codes and magical incantations.
 
-Like anything, see it as an iterative process.  I go this year and I try to succeed, althought the chance are low I'll get a job. But whatever, next year my chance will be much better!  If you don't start this year, in first year, you'll be a year late in your 4-year-learning-opportunity.
+Like anything, see it as an iterative process.  I go this year and I try to succeed, although the chance are low I'll get a job. But whatever, next year my chance will be much better!  If you don't start this year, in first year, you'll be a year late in your 4-year-learning-opportunity.
 
 Going to CUSEC in first year is the best thing you can do.  You'll get tons of leads about the domain.  You'll meet awesome people, make friends with people who care, you'll have a blast with the keynotes, you'll be inspired by the speakers, you'll have a shot at the ways for your future.
 
