@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 
-With [recent news] about exploits in Java web-browser plugins and recommendation to [disable such plugins], here's a very simple trick that will protect you from most simple attacks that can be carried from websites.
+With [recent news] about exploits in Java web-browser plugins and recommendations to [disable such plugins], here's a very simple trick that will protect you from most simple attacks that can be carried from websites.
 
 <iframe width="960" 
         height="720" 

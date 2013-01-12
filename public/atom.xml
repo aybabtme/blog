@@ -4,7 +4,7 @@
   <title><![CDATA[All Your Base Are Belong To Me]]></title>
   <link href="http://aybabt.me/atom.xml" rel="self"/>
   <link href="http://aybabt.me/"/>
-  <updated>2013-01-12T02:18:59-05:00</updated>
+  <updated>2013-01-12T02:21:49-05:00</updated>
   <id>http://aybabt.me/</id>
   <author>
     <name><![CDATA[Antoine Grondin]]></name>
@@ -18,7 +18,7 @@
     <link href="http://aybabt.me/blog/2013/01/12/simple-trick-to-enhance-security-using-google-chrome/"/>
     <updated>2013-01-12T01:56:00-05:00</updated>
     <id>http://aybabt.me/blog/2013/01/12/simple-trick-to-enhance-security-using-google-chrome</id>
-    <content type="html"><![CDATA[<p>With <a href="http://www.nbcnews.com/technology/technolog/us-warns-java-software-security-concerns-escalate-1B7938755">recent news</a> about exploits in Java web-browser plugins and recommendation to <a href="http://thenextweb.com/apps/2013/01/11/following-active-exploits-mozilla-adds-all-recent-versions-of-java-to-its-firefox-add-on-blocklist/">disable such plugins</a>, here&#8217;s a very simple trick that will protect you from most simple attacks that can be carried from websites.</p>
+    <content type="html"><![CDATA[<p>With <a href="http://www.nbcnews.com/technology/technolog/us-warns-java-software-security-concerns-escalate-1B7938755">recent news</a> about exploits in Java web-browser plugins and recommendations to <a href="http://thenextweb.com/apps/2013/01/11/following-active-exploits-mozilla-adds-all-recent-versions-of-java-to-its-firefox-add-on-blocklist/">disable such plugins</a>, here&#8217;s a very simple trick that will protect you from most simple attacks that can be carried from websites.</p>
 
 <iframe width="960" 
         height="720" 
