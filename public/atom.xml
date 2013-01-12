@@ -4,7 +4,7 @@
   <title><![CDATA[All Your Base Are Belong To Me]]></title>
   <link href="http://aybabt.me/atom.xml" rel="self"/>
   <link href="http://aybabt.me/"/>
-  <updated>2013-01-09T23:00:29-05:00</updated>
+  <updated>2013-01-12T02:18:59-05:00</updated>
   <id>http://aybabt.me/</id>
   <author>
     <name><![CDATA[Antoine Grondin]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Simple Trick To Enhance Security Using Google Chrome]]></title>
+    <link href="http://aybabt.me/blog/2013/01/12/simple-trick-to-enhance-security-using-google-chrome/"/>
+    <updated>2013-01-12T01:56:00-05:00</updated>
+    <id>http://aybabt.me/blog/2013/01/12/simple-trick-to-enhance-security-using-google-chrome</id>
+    <content type="html"><![CDATA[<p>With <a href="http://www.nbcnews.com/technology/technolog/us-warns-java-software-security-concerns-escalate-1B7938755">recent news</a> about exploits in Java web-browser plugins and recommendation to <a href="http://thenextweb.com/apps/2013/01/11/following-active-exploits-mozilla-adds-all-recent-versions-of-java-to-its-firefox-add-on-blocklist/">disable such plugins</a>, here&#8217;s a very simple trick that will protect you from most simple attacks that can be carried from websites.</p>
+
+<iframe width="960" 
+        height="720" 
+        src="http://www.youtube.com/embed/3vCAqq1lumw" 
+        frameborder="0" allowfullscreen>
+</iframe>
+
+
+<p>Of course that&#8217;s not nearly enough to secure your computers, but it will surely help by greatly reducing the surface area on which your computer is vulnerable to threats.</p>
+
+<h2>Along with that, common practices are:</h2>
+
+<ul>
+<li><strong>Not to run unknown executables.</strong></li>
+<li>Especially <strong>not to run unknown executables with root/administrator privileges</strong>.</li>
+<li><strong>Not to use pirated software</strong>.</li>
+<li>If you want to <strong>go on shaddy websites, use a virtual machine</strong>.</li>
+<li>If you want to <strong>use pirated software, assume your computer is pirated/infected</strong> and any password, card number, account number you type - any key you press - is being recorded. Only use this computer to use those pirated software, use a physicaly different machine to do your banking/read your emails, login to any website.</li>
+</ul>
+
+
+<p>The use of pirated software could be a whole blog post in itself.  Simply put, just figure that inserting instructions of their choice into your lovely pirated game is trivial to crackers producing warez.  Hey, they need to pay their bills too!  Turning your computer to a botnet is an effective way to do so!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CUSEC - But I'm First Year!]]></title>
@@ -41,7 +72,7 @@
 
 <blockquote><p>What do I have to lose going?  Nothing (but a couple of $)</p></blockquote>
 
-<p>And so I went.  And it was awesome.  But I was first year, I didn&#8217;t know shit, like nothing at all.  Once there, I realized there was a career fair going on all conference long.  I don&#8217;t know why but I never paid attention to the HD&#8217;s message regarding the carrer fairs - my attention span sucks like that. So I was there, in front of all those recruiters in front of impressive, big names and I remember feeling overwhelmed.</p>
+<p>And so I went.  And it was awesome.  But I was first year, I didn&#8217;t know shit, like nothing at all.  Once there, I realized there was a career fair going on all conference long.  I don&#8217;t know why but I never paid attention to the HD&#8217;s message regarding the career fairs - my attention span sucks like that. So I was there, in front of all those recruiters in front of impressive, big names and I remember feeling overwhelmed.</p>
 
 <p>I went up the stairs of the hotel and thrown out a resume in 30 minutes.  Then I went downstair back to the conference floor and started to distribute my resume. God I had no clue what anything was about.  I went to the <a href="http://www.riotgames.com/">Riot Games booth</a> (makers of League of Legend), the guy there asking me</p>
 
@@ -61,7 +92,7 @@
 
 <p>Failure because, of course, the Riot Games recruiter was not very impressed that I had no clue about any of the words that got out of his mouth.  But it doesn&#8217;t matter, I got a glimpse at his Alien Language and this year, I can come back and try to speak it.  I&#8217;ll have a much better shot at it now that I know his secret codes and magical incantations.</p>
 
-<p>Like anything, see it as an iterative process.  I go this year and I try to succeed, althought the chance are low I&#8217;ll get a job. But whatever, next year my chance will be much better!  If you don&#8217;t start this year, in first year, you&#8217;ll be a year late in your 4-year-learning-opportunity.</p>
+<p>Like anything, see it as an iterative process.  I go this year and I try to succeed, although the chance are low I&#8217;ll get a job. But whatever, next year my chance will be much better!  If you don&#8217;t start this year, in first year, you&#8217;ll be a year late in your 4-year-learning-opportunity.</p>
 
 <p>Going to CUSEC in first year is the best thing you can do.  You&#8217;ll get tons of leads about the domain.  You&#8217;ll meet awesome people, make friends with people who care, you&#8217;ll have a blast with the keynotes, you&#8217;ll be inspired by the speakers, you&#8217;ll have a shot at the ways for your future.</p>
 
