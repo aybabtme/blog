@@ -24,7 +24,7 @@ About two days ago, an area spanning at least the /16 block started to accumulat
 
 ### First Sign Of Failure
 
-For a few hours, all was good.  Then on the morning two days ago, a premniscient sign of failure appeared.  The collocated admin of `another_house` sent me an e-mail, which he quite oddly printed and stamped on `the_house.door` (what a strange individual).  Apparently, two of our `dogs` had escaped from within our local network.
+For a few hours, all was good.  Then two days ago, in the morning, a premniscient sign of failure appeared.  The collocated admin of `another_house` sent me an e-mail, which he quite oddly printed and stamped on `the_house.door` (what a strange individual).  Apparently, two of our `dogs` had escaped from within our local network.
 
 Here you might be wondering "what the hell are they doing with two `dogs`".  It happens that the users of `the_house` enjoy the company of `dogs` so they maintain two of them within the boundaries (or so they thought!) of their localhost.  They do so against any common sense, every decent human-being knowledgeably avoiding such annoying-ware for fear they will clutter their `house` 
 with garbages of all kind, or even destroy parts of `the_house`.
