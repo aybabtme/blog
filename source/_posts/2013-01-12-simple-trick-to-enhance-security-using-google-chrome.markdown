@@ -8,6 +8,8 @@ categories:
 
 With [recent news] about exploits in Java web-browser plugins and recommendations to [disable such plugins], here's a very simple trick that will protect you from most simple attacks that can be carried from websites.
 
+<!-- more -->
+
 <iframe width="960" 
         height="720" 
         src="http://www.youtube.com/embed/3vCAqq1lumw" 
