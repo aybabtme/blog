@@ -94,7 +94,7 @@ The test fails if `way_too_excited_dog` gets across the `fence` and eats the arr
 
 ## Red, Green, Refactor
 
-We now have a failing test.  Indeed, when I run it, I invariably obtain a `way_too_excited_dog`, which who eats my array of `meat`.
+We now have a failing test.  Indeed, when I run it, I invariably obtain a `way_too_excited_dog`, who eats my array of `meat`.
 
 I can't keep this test _red_ for too long (I don't have enough meat!), so I need to find a fix!
 

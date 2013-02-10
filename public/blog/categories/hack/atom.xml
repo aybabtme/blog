@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hack | All Your Base Are Belong To Me]]></title>
   <link href="http://aybabt.me/blog/categories/hack/atom.xml" rel="self"/>
   <link href="http://aybabt.me/"/>
-  <updated>2013-02-10T00:54:45-05:00</updated>
+  <updated>2013-02-10T00:56:43-05:00</updated>
   <id>http://aybabt.me/</id>
   <author>
     <name><![CDATA[Antoine Grondin]]></name>
@@ -117,7 +117,7 @@ with garbages of all kind, or even destroy parts of <code>the_house</code>.</p>
 
 <h2>Red, Green, Refactor</h2>
 
-<p>We now have a failing test.  Indeed, when I run it, I invariably obtain a <code>way_too_excited_dog</code>, which who eats my array of <code>meat</code>.</p>
+<p>We now have a failing test.  Indeed, when I run it, I invariably obtain a <code>way_too_excited_dog</code>, who eats my array of <code>meat</code>.</p>
 
 <p>I can't keep this test <em>red</em> for too long (I don't have enough meat!), so I need to find a fix!</p>
 
