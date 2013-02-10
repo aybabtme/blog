@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hack | All Your Base Are Belong To Me]]></title>
   <link href="http://aybabt.me/blog/categories/hack/atom.xml" rel="self"/>
   <link href="http://aybabt.me/"/>
-  <updated>2013-02-10T00:48:05-05:00</updated>
+  <updated>2013-02-10T00:49:05-05:00</updated>
   <id>http://aybabt.me/</id>
   <author>
     <name><![CDATA[Antoine Grondin]]></name>
@@ -37,7 +37,7 @@
 
 <h3>First Sign Of Failure</h3>
 
-<p>For a few hours, all was good.  Then two days ago, in the morning, a premniscient sign of failure appeared.  The collocated admin of <code>another_house</code> sent me an e-mail, which he quite oddly printed and stamped on <code>the_house.door</code> (what a strange individual).  Apparently, two of our <code>dogs</code> had escaped from within our local network.</p>
+<p>For a few hours, all was good.  Then two days ago, in the morning, a prescient sign of failure appeared.  The collocated admin of <code>another_house</code> sent me an e-mail, which he quite oddly printed and stamped on <code>the_house.door</code> (what a strange individual).  Apparently, two of our <code>dogs</code> had escaped from within our local network.</p>
 
 <p>Here you might be wondering "what the hell are they doing with two <code>dogs</code>".  It happens that the users of <code>the_house</code> enjoy the company of <code>dogs</code> so they maintain two of them within the boundaries (or so they thought!) of their localhost.  They do so against any common sense, every decent human-being knowledgeably avoiding such annoying-ware for fear they will clutter their <code>house</code>
 with garbages of all kind, or even destroy parts of <code>the_house</code>.</p>
