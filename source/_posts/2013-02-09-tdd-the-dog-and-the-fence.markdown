@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TDD The Dog And The Fence"
+title: "TDD: The Dog And The Fence"
 date: 2013-02-09 21:22
 comments: true
 categories: hack life
