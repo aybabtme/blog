@@ -57,7 +57,7 @@ By now you might think that life is serving me a painful injection of wisdom, ri
 
 The next (this) morning, as I wake up and prepare to go take a shower, I find myself carelessly believing that `dogs` won't find their way through the leak in a mere 15 minutes, while I wash and get them back inside.
 
-And indeed, yet again they fled.  They escaped in all their glory, deciding this time to make an assault of the /16 block neighbours.  With a decent amount of shame, I find myself pinging all corners of the area, trying to find where the `dogs` are.  Luckily, they didn't go _too_ far and 15 minutes later, I've brought them back home.  
+And indeed, yet again they fled.  They escaped in all their glory, deciding this time to make an assault of the /16 block neighbours.  With a decent amount of shame, I find myself pinging all corners of the area, trying to find where the `dogs` are.  Luckily, they didn't go _too_ far and 15 minutes later, I brought them back home.  
 
 I put them to idle behind a virtual network we call `crate` and I leave for the day.  On the way to my destination, I fill in a bug report for `the_house` and mark it as confirmed.
 
