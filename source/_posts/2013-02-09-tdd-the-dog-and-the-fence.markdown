@@ -20,7 +20,7 @@ When would be a better time for `the_house` to crash than when its maintainer is
 
 ## The Setting
 
-About two days ago, an area spanning at least the /16 block started to accumulate a lot of garbage (some collocated neighbours call it "snow") around, with no clear mean to evacuate it. As any decent person would do, I undertook the enterprise of manually moving much of that crap out of main memory and moving it to swap in front of `the_house`, out of the way and leaving room for `cars` and `pedestrian` to execute properly.
+About two days ago, an area spanning at least the /16 block started to accumulate a lot of garbage (some collocated neighbours call it "snow"), with no clear means to evacuate it. As any decent person would do, I undertook the enterprise of manually moving much of that crap out of main memory and moving it to swap in front of `the_house`, out of the way and leaving room for `cars` and `pedestrians` to execute properly.
 
 ### First Sign Of Failure
 

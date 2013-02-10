@@ -4,7 +4,7 @@
   <title><![CDATA[Category: life | All Your Base Are Belong To Me]]></title>
   <link href="http://aybabt.me/blog/categories/life/atom.xml" rel="self"/>
   <link href="http://aybabt.me/"/>
-  <updated>2013-02-10T00:38:36-05:00</updated>
+  <updated>2013-02-10T00:47:12-05:00</updated>
   <id>http://aybabt.me/</id>
   <author>
     <name><![CDATA[Antoine Grondin]]></name>
@@ -33,7 +33,7 @@
 
 <h2>The Setting</h2>
 
-<p>About two days ago, an area spanning at least the /16 block started to accumulate a lot of garbage (some collocated neighbours call it "snow") around, with no clear mean to evacuate it. As any decent person would do, I undertook the enterprise of manually moving much of that crap out of main memory and moving it to swap in front of <code>the_house</code>, out of the way and leaving room for <code>cars</code> and <code>pedestrian</code> to execute properly.</p>
+<p>About two days ago, an area spanning at least the /16 block started to accumulate a lot of garbage (some collocated neighbours call it "snow"), with no clear means to evacuate it. As any decent person would do, I undertook the enterprise of manually moving much of that crap out of main memory and moving it to swap in front of <code>the_house</code>, out of the way and leaving room for <code>cars</code> and <code>pedestrians</code> to execute properly.</p>
 
 <h3>First Sign Of Failure</h3>
 
