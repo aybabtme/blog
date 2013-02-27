@@ -19,7 +19,9 @@ For a couple of months I've been ruminating the idea of having one or many hacka
  I often hear from friends on other campus where people talk in the corridor about their projects, where they get together to code and develop startup ideas.  I wish to have the same kind of exciting and febrile atmosphere on my campus, and I think holding regular hacking events will help fostering this kind of culture to Software Engineers and Computer Scientists.
 
 So I probed a couple of colleagues to know if others would be interested in a hackathon.  The response was very favourable.  So with other members of the IEEE student branch, we decided to hold such an event.
-I read that you had thirty participants. Were more interested, or was that the number of students who signed up?
+
+### I read that you had thirty participants. Were more interested, or was that the number of students who signed up?
+
 More were interested, but for this first iteration we wanted to keep the numbers low.  The point was to try a kind of 'minimum viable product' on a small subset of students and see how the reaction would be, what would work well and what would need to be improved.  For that reason, we did limited promotion, reaching mostly our friends on Facebook and doing some word-to-mouth type of promotion.  Thus if the first event was to be a complete failure, we wouldn't have screwed our audience and killed the project in its infancy.
 
 Luckily I think this try-run went pretty well, aside from a few technical problems.
